@@ -24,6 +24,10 @@
     <Compile Include="function_package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="jarjarbinks_package\jar_jar.py" />
+    <Compile Include="jarjarbinks_package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main_package\main.py">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +38,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="function_package\" />
+    <Folder Include="jarjarbinks_package\" />
     <Folder Include="main_package\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
