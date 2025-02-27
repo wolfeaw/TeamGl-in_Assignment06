@@ -34,7 +34,6 @@
     <Compile Include="main_package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="TeamGlóin_Assignment06.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="function_package\" />
